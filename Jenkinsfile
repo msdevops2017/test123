@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-            echo $GIT_COMMIT
+            echo GIT_COMMIT
             }
         }
     }
