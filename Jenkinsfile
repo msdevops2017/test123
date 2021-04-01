@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'npe-deploy-pod' }
+    agent any
     stages {
         stage('build') {
             steps {
